@@ -20,14 +20,15 @@ body {
 }
 
 .action-btn{
-    background-color: #ed5761;
-    color: #161515;
+    background-color: #465779;
+    color: white;
     margin: 30px 0 0 0;
     width: 200px;
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-    border: none;
+    border: 2px dashed #212121;
+    cursor: pointer;
 }
 
 .container{
@@ -38,4 +39,17 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.dice{
+    width: 180px;
+    height: 180px;
+}
+
+.dice-green{
+ fill: #7BFF83;
+}
+
+.dice-blue{
+ fill: #7B95FF;
 }
